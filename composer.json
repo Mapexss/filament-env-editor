@@ -1,5 +1,5 @@
 {
-    "name": "geo-sot/filament-env-editor",
+    "name": "mapexss/filament-env-editor",
     "description": "Access .env file though Filament admin panel",
     "version": "4.0.0",
     "keywords": [
@@ -17,8 +17,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Geo Sot",
-            "email": "geo.sotis@gmail.com"
+            "name": "Mapexss"
         }
     ],
     "require": {
