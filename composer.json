@@ -23,7 +23,7 @@
     "require": {
         "php": "^8.2",
         "filament/filament": "^4.0",
-        "mapexss/laravel-env-editor": "^3.0",
+        "geo-sot/laravel-env-editor": "^3.0",
         "illuminate/contracts": ">=10.0",
         "spatie/laravel-package-tools": "^1.15.0"
     },

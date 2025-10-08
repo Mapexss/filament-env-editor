@@ -1501,16 +1501,16 @@
             "time": "2023-10-12T05:21:21+00:00"
         },
         {
-            "name": "mapexss/laravel-env-editor",
+            "name": "geo-sot/laravel-env-editor",
             "version": "3.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Mapexss/Laravel-EnvEditor.git",
+                "url": "https://github.com/geosot/Laravel-EnvEditor.git",
                 "reference": "957fed077fb058de52a76400c854913349117ee5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mapexss/Laravel-EnvEditor/zipball/957fed077fb058de52a76400c854913349117ee5",
+                "url": "https://api.github.com/repos/geosot/Laravel-EnvEditor/zipball/957fed077fb058de52a76400c854913349117ee5",
                 "reference": "957fed077fb058de52a76400c854913349117ee5",
                 "shasum": ""
             },
