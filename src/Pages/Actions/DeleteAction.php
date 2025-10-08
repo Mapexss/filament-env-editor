@@ -1,13 +1,13 @@
 <?php
 
-namespace GeoSot\FilamentEnvEditor\Pages\Actions;
+namespace Mapexss\FilamentEnvEditor\Pages\Actions;
 
-use Filament\Forms\Components\Actions\Action;
+use Filament\Actions\Action;
+use Filament\Support\Enums\Size;
 use Filament\Support\Colors\Color;
-use Filament\Support\Enums\ActionSize;
-use GeoSot\EnvEditor\Dto\EntryObj;
-use GeoSot\EnvEditor\Facades\EnvEditor;
-use GeoSot\FilamentEnvEditor\Pages\ViewEnv;
+use Mapexss\EnvEditor\Dto\EntryObj;
+use Mapexss\EnvEditor\Facades\EnvEditor;
+use Mapexss\FilamentEnvEditor\Pages\ViewEnv;
 
 class DeleteAction extends Action
 {
@@ -37,7 +37,7 @@ class DeleteAction extends Action
             $page->refresh();
         });
 
-        $this->size(ActionSize::Small);
+        $this->size(Size::Small);
         $this->tooltip(fn (): string => __('filament-env-editor::filament-env-editor.actions.delete.tooltip', ['name' => $this->entry->key]));
         $this->modalIcon('heroicon-o-trash');
         $this->modalHeading(fn (): string => __('filament-env-editor::filament-env-editor.actions.delete.confirm.title', ['name' => $this->entry->key]));

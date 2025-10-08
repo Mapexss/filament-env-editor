@@ -1,11 +1,11 @@
 <?php
 
-namespace GeoSot\FilamentEnvEditor\Pages\Actions\Backups;
+namespace Mapexss\FilamentEnvEditor\Pages\Actions\Backups;
 
-use Filament\Forms\Components\Actions\Action;
+use Filament\Actions\Action;
 use Filament\Support\Colors\Color;
-use GeoSot\EnvEditor\EnvEditor;
-use GeoSot\EnvEditor\Exceptions\EnvException;
+use Mapexss\EnvEditor\EnvEditor;
+use Mapexss\EnvEditor\Exceptions\EnvException;
 
 class DownloadEnvFileAction extends Action
 {
