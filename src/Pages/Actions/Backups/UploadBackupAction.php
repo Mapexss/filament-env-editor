@@ -1,12 +1,12 @@
 <?php
 
-namespace GeoSot\FilamentEnvEditor\Pages\Actions\Backups;
+namespace Mapexss\FilamentEnvEditor\Pages\Actions\Backups;
 
 use Filament\Actions\Action;
 use Filament\Forms\Components\BaseFileUpload;
 use Filament\Forms\Components\FileUpload;
 use Filament\Support\Colors\Color;
-use GeoSot\EnvEditor\EnvEditor;
+use Mapexss\EnvEditor\EnvEditor;
 use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 
 class UploadBackupAction extends Action

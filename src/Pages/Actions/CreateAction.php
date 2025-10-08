@@ -1,16 +1,16 @@
 <?php
 
-namespace GeoSot\FilamentEnvEditor\Pages\Actions;
+namespace Mapexss\FilamentEnvEditor\Pages\Actions;
 
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Support\Colors\Color;
 use Filament\Support\Enums\Width;
-use GeoSot\EnvEditor\Dto\EntryObj;
-use GeoSot\EnvEditor\Exceptions\EnvException;
-use GeoSot\EnvEditor\Facades\EnvEditor;
-use GeoSot\FilamentEnvEditor\Pages\ViewEnv;
+use Mapexss\EnvEditor\Dto\EntryObj;
+use Mapexss\EnvEditor\Exceptions\EnvException;
+use Mapexss\EnvEditor\Facades\EnvEditor;
+use Mapexss\FilamentEnvEditor\Pages\ViewEnv;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;

@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoSot\FilamentEnvEditor\Pages\Actions;
+namespace Mapexss\FilamentEnvEditor\Pages\Actions;
 
 use Filament\Actions\Action;
 use Illuminate\Foundation\Console\OptimizeClearCommand;

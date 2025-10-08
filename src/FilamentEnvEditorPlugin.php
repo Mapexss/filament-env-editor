@@ -1,12 +1,12 @@
 <?php
 
-namespace GeoSot\FilamentEnvEditor;
+namespace Mapexss\FilamentEnvEditor;
 
 use Closure;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 use Filament\Support\Concerns\EvaluatesClosures;
-use GeoSot\FilamentEnvEditor\Pages\ViewEnv;
+use Mapexss\FilamentEnvEditor\Pages\ViewEnv;
 
 class FilamentEnvEditorPlugin implements Plugin
 {

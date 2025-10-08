@@ -1,14 +1,14 @@
 <?php
 
-namespace GeoSot\FilamentEnvEditor\Pages\Actions;
+namespace Mapexss\FilamentEnvEditor\Pages\Actions;
 
 use Filament\Actions\Action;
 use Filament\Support\Enums\Size;
 use Filament\Forms\Components\TextInput;
 use Filament\Support\Colors\Color;
-use GeoSot\EnvEditor\Dto\EntryObj;
-use GeoSot\EnvEditor\Facades\EnvEditor;
-use GeoSot\FilamentEnvEditor\Pages\ViewEnv;
+use Mapexss\EnvEditor\Dto\EntryObj;
+use Mapexss\EnvEditor\Facades\EnvEditor;
+use Mapexss\FilamentEnvEditor\Pages\ViewEnv;
 
 class EditAction extends Action
 {

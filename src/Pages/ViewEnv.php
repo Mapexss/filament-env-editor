@@ -1,6 +1,6 @@
 <?php
 
-namespace GeoSot\FilamentEnvEditor\Pages;
+namespace Mapexss\FilamentEnvEditor\Pages;
 
 use Filament\Forms;
 use Filament\Forms\Components\Placeholder;
@@ -18,20 +18,20 @@ use Filament\Schemas\Components\Tabs\Tab;
 use Filament\Schemas\Schema;
 use Filament\Support\Enums\Size;
 use Filament\Tables\Table;
-use GeoSot\EnvEditor\Dto\BackupObj;
-use GeoSot\EnvEditor\Dto\EntryObj;
-use GeoSot\EnvEditor\Facades\EnvEditor;
-use GeoSot\FilamentEnvEditor\FilamentEnvEditorPlugin;
-use GeoSot\FilamentEnvEditor\Pages\Actions\Backups\DeleteBackupAction;
-use GeoSot\FilamentEnvEditor\Pages\Actions\Backups\DownloadEnvFileAction;
-use GeoSot\FilamentEnvEditor\Pages\Actions\Backups\MakeBackupAction;
-use GeoSot\FilamentEnvEditor\Pages\Actions\Backups\RestoreBackupAction;
-use GeoSot\FilamentEnvEditor\Pages\Actions\Backups\ShowBackupContentAction;
-use GeoSot\FilamentEnvEditor\Pages\Actions\Backups\UploadBackupAction;
-use GeoSot\FilamentEnvEditor\Pages\Actions\CreateAction;
-use GeoSot\FilamentEnvEditor\Pages\Actions\DeleteAction;
-use GeoSot\FilamentEnvEditor\Pages\Actions\EditAction;
-use GeoSot\FilamentEnvEditor\Pages\Actions\OptimizeClearAction;
+use Mapexss\EnvEditor\Dto\BackupObj;
+use Mapexss\EnvEditor\Dto\EntryObj;
+use Mapexss\EnvEditor\Facades\EnvEditor;
+use Mapexss\FilamentEnvEditor\FilamentEnvEditorPlugin;
+use Mapexss\FilamentEnvEditor\Pages\Actions\Backups\DeleteBackupAction;
+use Mapexss\FilamentEnvEditor\Pages\Actions\Backups\DownloadEnvFileAction;
+use Mapexss\FilamentEnvEditor\Pages\Actions\Backups\MakeBackupAction;
+use Mapexss\FilamentEnvEditor\Pages\Actions\Backups\RestoreBackupAction;
+use Mapexss\FilamentEnvEditor\Pages\Actions\Backups\ShowBackupContentAction;
+use Mapexss\FilamentEnvEditor\Pages\Actions\Backups\UploadBackupAction;
+use Mapexss\FilamentEnvEditor\Pages\Actions\CreateAction;
+use Mapexss\FilamentEnvEditor\Pages\Actions\DeleteAction;
+use Mapexss\FilamentEnvEditor\Pages\Actions\EditAction;
+use Mapexss\FilamentEnvEditor\Pages\Actions\OptimizeClearAction;
 use Illuminate\Support\Collection;
 use Illuminate\Support\HtmlString;
 
